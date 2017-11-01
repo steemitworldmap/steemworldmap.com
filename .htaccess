@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+
+ 
+RewriteRule ^user/(.*)$ ./?author=$1

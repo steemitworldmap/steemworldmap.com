@@ -1,0 +1,492 @@
+[02-Oct-2017 16:32:59 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/markerInfo.php on line 12
+[02-Oct-2017 16:32:59 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/markerInfo.php on line 12
+[02-Oct-2017 16:33:07 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/cluster.php on line 14
+[02-Oct-2017 16:33:07 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/cluster.php on line 14
+[02-Oct-2017 16:33:07 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/cluster.php on line 14
+[02-Oct-2017 16:33:07 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/cluster.php on line 14
+[02-Oct-2017 16:33:29 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/cluster.php on line 14
+[02-Oct-2017 16:33:29 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/cluster.php on line 14
+[02-Oct-2017 16:33:29 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/cluster.php on line 14
+[02-Oct-2017 16:33:29 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/cluster.php on line 14
+[02-Oct-2017 16:34:16 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/markerInfo.php on line 12
+[02-Oct-2017 16:34:16 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/markerInfo.php on line 12
+[02-Oct-2017 16:34:28 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/markerInfo.php on line 12
+[02-Oct-2017 16:34:28 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/markerInfo.php on line 12
+[02-Oct-2017 16:34:45 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/markerInfo.php on line 12
+[02-Oct-2017 16:34:45 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/markerInfo.php on line 12
+[02-Oct-2017 16:34:52 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/markerInfo.php on line 12
+[02-Oct-2017 16:34:52 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/markerInfo.php on line 12
+[02-Oct-2017 16:34:56 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/markerInfo.php on line 12
+[02-Oct-2017 16:34:56 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/markerInfo.php on line 12
+[02-Oct-2017 16:34:59 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/cluster.php on line 14
+[02-Oct-2017 16:34:59 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/cluster.php on line 14
+[02-Oct-2017 16:34:59 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/cluster.php on line 14
+[02-Oct-2017 16:34:59 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/cluster.php on line 14
+[02-Oct-2017 22:20:04 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 28
+[02-Oct-2017 22:20:04 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 29
+[02-Oct-2017 22:20:04 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 30
+[02-Oct-2017 22:20:04 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 31
+[02-Oct-2017 22:20:06 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 28
+[02-Oct-2017 22:20:06 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 29
+[02-Oct-2017 22:20:06 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 30
+[02-Oct-2017 22:20:06 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 31
+[02-Oct-2017 22:20:19 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 28
+[02-Oct-2017 22:20:19 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 29
+[02-Oct-2017 22:20:19 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 30
+[02-Oct-2017 22:20:19 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 31
+[02-Oct-2017 22:20:22 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 28
+[02-Oct-2017 22:20:22 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 29
+[02-Oct-2017 22:20:22 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 30
+[02-Oct-2017 22:20:22 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 31
+[02-Oct-2017 22:20:23 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 28
+[02-Oct-2017 22:20:23 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 29
+[02-Oct-2017 22:20:23 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 30
+[02-Oct-2017 22:20:23 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 31
+[02-Oct-2017 22:20:41 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 28
+[02-Oct-2017 22:20:41 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 29
+[02-Oct-2017 22:20:41 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 30
+[02-Oct-2017 22:20:41 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 31
+[02-Oct-2017 22:20:43 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 28
+[02-Oct-2017 22:20:43 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 29
+[02-Oct-2017 22:20:43 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 30
+[02-Oct-2017 22:20:43 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 31
+[02-Oct-2017 22:20:44 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 28
+[02-Oct-2017 22:20:44 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 29
+[02-Oct-2017 22:20:44 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 30
+[02-Oct-2017 22:20:44 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 31
+[02-Oct-2017 22:20:45 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 28
+[02-Oct-2017 22:20:45 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 29
+[02-Oct-2017 22:20:45 UTC] PHP Warning:  strtotime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 30
+[02-Oct-2017 22:20:45 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/poxpoint/steemitworldmap.com/PHP/search.php on line 31
+[02-Oct-2017 22:33:27 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 146
+[02-Oct-2017 22:33:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 49
+[02-Oct-2017 22:33:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[02-Oct-2017 22:33:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[02-Oct-2017 22:33:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[02-Oct-2017 22:33:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[04-Oct-2017 00:21:27 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 146
+[04-Oct-2017 00:21:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 49
+[04-Oct-2017 00:21:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[04-Oct-2017 00:21:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[04-Oct-2017 00:21:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[04-Oct-2017 00:21:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[04-Oct-2017 15:38:03 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 146
+[04-Oct-2017 15:38:03 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 49
+[04-Oct-2017 15:38:03 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[04-Oct-2017 15:38:03 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[04-Oct-2017 15:38:03 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[04-Oct-2017 15:38:03 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[04-Oct-2017 15:38:03 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 146
+[04-Oct-2017 15:38:03 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 49
+[04-Oct-2017 15:38:03 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[04-Oct-2017 15:38:03 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[04-Oct-2017 15:38:03 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[04-Oct-2017 15:38:03 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[04-Oct-2017 15:38:04 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 146
+[04-Oct-2017 15:38:04 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 49
+[04-Oct-2017 15:38:04 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[04-Oct-2017 15:38:04 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[04-Oct-2017 15:38:04 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[04-Oct-2017 15:38:04 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[04-Oct-2017 15:38:05 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 146
+[04-Oct-2017 15:38:05 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 49
+[04-Oct-2017 15:38:05 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[04-Oct-2017 15:38:05 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[04-Oct-2017 15:38:05 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[04-Oct-2017 15:38:05 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[04-Oct-2017 15:38:06 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 146
+[04-Oct-2017 15:38:06 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 49
+[04-Oct-2017 15:38:06 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[04-Oct-2017 15:38:06 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[04-Oct-2017 15:38:06 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[04-Oct-2017 15:38:06 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[04-Oct-2017 15:38:07 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 146
+[04-Oct-2017 15:38:07 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 49
+[04-Oct-2017 15:38:07 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[04-Oct-2017 15:38:07 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[04-Oct-2017 15:38:07 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[04-Oct-2017 15:38:07 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[06-Oct-2017 19:54:26 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 146
+[06-Oct-2017 19:54:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 49
+[06-Oct-2017 19:54:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[06-Oct-2017 19:54:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[06-Oct-2017 19:54:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[06-Oct-2017 19:54:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[07-Oct-2017 11:13:16 UTC] PHP Notice:  Undefined variable: conn in /home/poxpoint/steemitworldmap.com/PHP/cluster.php on line 34
+[07-Oct-2017 11:13:16 UTC] PHP Fatal error:  Call to a member function close() on null in /home/poxpoint/steemitworldmap.com/PHP/cluster.php on line 34
+[07-Oct-2017 21:41:26 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 146
+[07-Oct-2017 21:41:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 49
+[07-Oct-2017 21:41:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[07-Oct-2017 21:41:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[07-Oct-2017 21:41:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[07-Oct-2017 21:41:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[09-Oct-2017 01:59:27 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 146
+[09-Oct-2017 01:59:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 49
+[09-Oct-2017 01:59:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[09-Oct-2017 01:59:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[09-Oct-2017 01:59:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[09-Oct-2017 01:59:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[09-Oct-2017 15:11:27 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 146
+[09-Oct-2017 15:11:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 49
+[09-Oct-2017 15:11:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[09-Oct-2017 15:11:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[09-Oct-2017 15:11:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[09-Oct-2017 15:11:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 20:38:35 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 20:38:35 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 20:38:35 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 20:41:59 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 20:41:59 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 20:41:59 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 20:44:58 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 20:44:58 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 20:44:58 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 20:47:58 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 20:47:58 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 20:47:58 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 20:50:58 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 20:50:58 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 20:50:58 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 20:53:57 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 20:53:57 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 20:53:57 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 20:56:57 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 20:56:57 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 20:56:57 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 20:59:57 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 20:59:57 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 20:59:57 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 21:02:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 21:02:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 21:02:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 21:05:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 21:05:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 21:05:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 21:08:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 21:08:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 21:08:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 21:11:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 21:11:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 21:11:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 21:14:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 21:14:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 21:14:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 21:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 21:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 21:17:56 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 21:20:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 21:20:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 21:20:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 21:23:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 21:23:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 21:23:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 21:26:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 21:26:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 21:26:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 21:29:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 21:29:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 21:29:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 21:32:56 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 21:32:56 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 21:32:56 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 21:35:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 21:35:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 21:35:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 21:38:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 21:38:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 21:38:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 21:41:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 21:41:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 21:41:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 21:44:56 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 21:44:56 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 21:44:56 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 21:47:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 21:47:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 21:47:55 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[10-Oct-2017 21:50:56 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[10-Oct-2017 21:50:56 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[10-Oct-2017 21:50:56 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[11-Oct-2017 16:32:26 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 146
+[11-Oct-2017 16:32:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 49
+[11-Oct-2017 16:32:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[11-Oct-2017 16:32:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[11-Oct-2017 16:32:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[11-Oct-2017 16:32:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[11-Oct-2017 16:51:19 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 146
+[11-Oct-2017 16:51:19 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 49
+[11-Oct-2017 16:51:19 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[11-Oct-2017 16:51:19 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 82
+[11-Oct-2017 16:51:19 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 85
+[11-Oct-2017 16:51:19 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 88
+[12-Oct-2017 00:50:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 00:53:30 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 00:56:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 00:59:30 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 01:02:30 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 01:05:30 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 01:08:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 01:11:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 01:14:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 01:17:30 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 01:20:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 01:23:30 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 01:26:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 01:29:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 01:32:30 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 01:35:30 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 01:38:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 01:41:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 01:44:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 01:47:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 01:50:30 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 01:53:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 01:56:30 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 01:59:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 02:02:31 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 02:05:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 02:08:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 02:11:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 02:14:30 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 02:17:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 02:20:30 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 02:23:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 02:26:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 02:29:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 02:32:30 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 02:35:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 02:38:30 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 02:41:30 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 02:44:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 02:47:30 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 02:50:30 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 02:53:30 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 02:56:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 02:59:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 03:02:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 03:05:28 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 03:08:28 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 03:11:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 03:14:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 03:17:28 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 03:20:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 03:23:28 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 03:26:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 03:29:28 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 03:32:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 03:35:28 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 03:38:28 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 03:41:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 03:44:28 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 03:47:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 03:50:28 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 03:53:29 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 03:56:28 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 03:59:28 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 04:02:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 04:05:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 04:08:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 04:11:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 04:14:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 04:17:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 04:20:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 04:23:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 04:26:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 04:29:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 04:32:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 04:35:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 04:38:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 04:41:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 04:44:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 04:47:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 04:50:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 04:53:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 04:56:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 04:59:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 05:02:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 05:05:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 05:08:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 05:11:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 05:14:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 05:17:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 05:20:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 05:23:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 05:26:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 05:29:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 05:32:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 05:35:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 05:38:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 05:41:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 05:44:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 05:47:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 05:50:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 05:53:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 05:56:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 05:59:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 06:02:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 06:05:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 06:08:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 06:11:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 06:14:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 06:17:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 06:20:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 06:23:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 06:26:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 06:29:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 06:32:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 06:35:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 06:38:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 06:41:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 06:44:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 06:47:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 06:50:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 06:53:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 06:56:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 06:59:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 07:02:28 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 07:05:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 07:08:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 07:11:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 07:14:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 07:17:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 07:20:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 07:23:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 07:26:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 07:29:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 07:32:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 07:35:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 07:38:28 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 07:41:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 07:44:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 07:47:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 07:50:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 07:53:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 07:56:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 07:59:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 08:02:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 08:05:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 08:08:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 08:11:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 08:14:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 08:17:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 08:20:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 08:23:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 08:26:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 08:29:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 08:32:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 08:35:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 08:38:27 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 08:41:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 08:45:31 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 08:47:48 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 08:50:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 08:53:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 08:56:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 08:59:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 09:02:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 09:05:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 09:08:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 09:11:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 09:14:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 09:17:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 09:20:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 09:23:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 09:26:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 09:29:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 09:32:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 09:35:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 09:38:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 09:41:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 09:44:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 09:47:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 09:50:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 09:53:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 09:56:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 09:59:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 10:02:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 10:05:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 10:08:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 10:11:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 10:14:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 10:17:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 10:20:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 10:23:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 10:26:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 10:29:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 10:32:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 10:35:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 10:38:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 10:41:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 10:44:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 10:47:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 10:50:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 10:53:26 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 10:56:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 10:59:25 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 11:02:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 11:05:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 11:08:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 11:11:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 11:14:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 11:17:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 11:20:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 11:23:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 11:26:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 11:29:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 11:32:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 11:35:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 11:38:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 11:41:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 11:44:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 11:47:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 11:50:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 11:53:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 11:56:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 11:59:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 12:02:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 12:05:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 12:08:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 12:11:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 12:14:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 12:17:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 12:20:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 12:23:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 12:26:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 12:29:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 12:32:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 12:35:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 12:38:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 12:41:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 12:44:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 12:47:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 12:50:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 12:53:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 12:56:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 12:59:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 13:02:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 13:05:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 13:08:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 13:11:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 13:14:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 13:17:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 13:20:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 13:23:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 13:26:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 13:29:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 13:32:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 13:35:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 13:38:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 13:41:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 13:44:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 13:47:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 13:50:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 13:53:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 13:56:23 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 13:59:24 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 14:02:22 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 14:05:21 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 14:08:22 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 14:11:21 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 14:14:22 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 14:17:21 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldmap.com/PHP/x.php on line 60
+[12-Oct-2017 14:20:22 UTC] PHP Notice:  Undefined offset: 1 in /home/poxpoint/steemitworldm

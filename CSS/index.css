@@ -1,0 +1,739 @@
+.pac-container:after {
+    /* Disclaimer: not needed to show 'powered by Google' if also a Google Map is shown */
+
+    background-image: none !important;
+    height: 0px;
+}
+
+.onoffswitch {
+    position: absolute;
+    width: 6em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    z-index: 1;
+    top: auto;
+    bottom: 5em;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.onoffswitch-checkbox {
+    display: none;
+}
+
+.onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+.onoffswitch-inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+    overflow: auto;
+}
+
+.onoffswitch-inner:before,
+.onoffswitch-inner:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 4em;
+    padding: 0;
+    line-height: 4em;
+    font-size: 0.5em;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner:before {
+    content: "EXPLORE";
+    padding-left: 1em;
+    background-color: #2D82FA;
+    color: #FFFFFF;
+}
+
+.onoffswitch-inner:after {
+    content: "CODE";
+    padding-right: 1em;
+    background-color: #EEEEEE;
+    color: #999999;
+    text-align: right;
+}
+
+.onoffswitch-switch {
+    display: block;
+    width: 1em;
+    height: 1em;
+    margin: 0.5em;
+    background: #FFFFFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 4em;
+    border-radius: 100px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+
+.onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+}
+
+
+/*END SWITCH*/
+
+#fromDate {
+    display: none;
+}
+
+#postName {
+    display: none;
+}
+
+#searchTerms {
+    display: none;
+    position: fixed;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 6em;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid black;
+    max-height: 75vh;
+    overflow-y: auto;
+}
+
+#blogCodeDiv {
+    display: none;
+    position: fixed;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 8em;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid black;
+    height: 8em;
+    overflow-y: auto;
+}
+
+#blogCodeDescription {
+    width: 70%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    height: 1.8em;
+}
+
+.blogCodeText {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+#clickCodeText {
+    display: none;
+}
+
+#codeToCopy {
+    display: none;
+    cursor: pointer;
+    padding: 0.4em;
+    border: 1px solid black;
+    line-height: 2.1em;
+}
+
+#codeToCopy:hover {
+    background-color: #FFFBCC;
+}
+
+#goodCopy {
+    display: none;
+}
+
+#howToPopup {
+    display: none;
+    position: fixed;
+    width: 50%;
+    max-height: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 6em;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 0.5px solid black;
+    overflow-y: auto;
+}
+
+.howToHeader {
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.5em;
+    background-color: rgba(45, 130, 250, 0.7);
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid black;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+}
+
+.howToHeader:hover {
+    cursor: pointer;
+    background-color: rgba(45, 130, 250, 0.9);
+}
+
+.howToText {
+    display: none;
+    text-align: center;
+    padding-top: 1em;
+    width: 80%;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin: 0 auto;
+    padding-bottom: 1.5em;
+}
+
+#mapCode {
+    cursor: pointer;
+    padding: 0.4em;
+    border: 1px solid black;
+    line-height: 2em;
+}
+
+#mapCode:hover {
+    background-color: #FFFBCC;
+}
+
+.howToText a {
+    font-family: 'Libre Franklin', sans-serif;
+    text-decoration: underline;
+    color: black;
+}
+
+#author,
+#tag {
+    width: 50%;
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    font-size: 0.8em;
+    height: 1.8em;
+}
+
+#author {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#tag {
+    margin-bottom: 1.5em;
+}
+
+#author::-webkit-input-placeholder,
+#tag::-webkit-input-placeholder {
+    opacity: 0.5;
+}
+
+#author:-ms-input-placeholder,
+#tag:-ms-input-placeholder {
+    opacity: 0.5;
+}
+
+#author::-moz-placeholder,
+#tag::-moz-placeholder {
+    opacity: 0.5;
+}
+
+#author:-moz-placeholder,
+#tag:-moz-placeholder {
+    opacity: 0.5;
+}
+
+#editorsChoice {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#ecLabel {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin-top: 1.3em;
+    display: inline-block;
+    word-break: break-all;
+}
+
+#searchAndClear {
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+    top: 0.7em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 22em;
+    height: 34px;
+}
+
+#searchAndClear p {
+    /*display: none;*/
+    display: inline-block;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    font-size: 0.8em;
+    line-height: 34px;
+    color: white;
+    width: 32%;
+    text-transform: uppercase;
+    background-color: rgba(45, 130, 250, 0.60);
+    border-radius: 5px;
+}
+
+#searchAndClear p:hover {
+    cursor: pointer;
+    background-color: rgba(45, 130, 250, 0.80);
+}
+
+#postForm {
+    display: none;
+}
+
+#pac-input{
+    z-index: 1;
+    position: fixed;
+    top: 4.5em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 26.5em;
+    line-height: 1.5em;
+    height: 22px;
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.8em;
+    opacity: 0.9;
+}
+
+
+/*#authorInputDiv {
+    position: fixed;
+    z-index: 1;
+    width: 35em;
+    background-color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    top: 0.5em;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: 0;
+    opacity: 50;
+}
+
+#authorInput {
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    line-height: 1.8em;
+    background-color: rgba(255, 255, 255, 0.0);
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.5em;
+    height: 1.5em;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#authorInput::-webkit-input-placeholder {
+    
+    opacity: 0.5;
+}
+
+#authorInput:-ms-input-placeholder {
+   
+    opacity: 0.5;
+}
+
+#authorInput::-moz-placeholder {
+    
+    opacity: 0.5;
+}
+
+#authorInput:-moz-placeholder {
+    
+    opacity: 0.5;
+}
+*/
+
+#donateButtons {
+    position: fixed;
+    z-index: 1;
+    width: 22em;
+    background-color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#copiedMessage {
+    display: none;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    font-size: 0.65em;
+    line-height: 1.5em;
+    height: 1.5em;
+    background-color: rgba(45, 130, 250, 0.60);
+    color: white;
+    overflow: hidden;
+}
+
+#donateButtons img {
+    display: inline-block;
+    width: 2.1em;
+    padding: 0.3em;
+    cursor: pointer;
+}
+
+#donateText {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    font-size: 0.65em;
+    line-height: 1.5em;
+    height: 1.5em;
+    background-color: rgba(45, 130, 250, 0.60);
+    text-transform: uppercase;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.clusterDiv {
+    max-height: 20em;
+}
+
+.imageDiv {
+    overflow: auto;
+    background-image: url(../IMG/91.gif);
+    object-fit: cover;
+    width: 7.5em;
+    height: 7.5em;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.5em;
+}
+
+.postImg {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.postImg.noImage {
+    object-fit: contain;
+}
+
+.infoDiv {
+    display: block;
+    width: 32em;
+    height: 7.5em;
+    overflow: auto;
+}
+
+.infoDivCluster {
+    margin-bottom: 1em;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.textDiv {
+    display: block;
+    width: 22em;
+    height: 7.5em;
+    float: left;
+    padding-left: 0.5em;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+
+.postTitle {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.5em;
+    height: 1.5em;
+    overflow: hidden;
+}
+
+.postTitle a {
+    text-decoration: none;
+    color: black;
+}
+
+.postDescription {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    height: 4.5em;
+    overflow: hidden;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    /*border-bottom: 1px solid #c4c4c4;*/
+    /*border-top: 1px solid #c4c4c4;*/
+}
+
+.extraInfo {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    overflow: hidden;
+    text-align: right;
+    width: 60%;
+    float: right;
+    padding-top: 0.2em;
+}
+
+.extraInfo1 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    overflow: hidden;
+    width: 40%;
+    float: left;
+    padding-top: 0.2em;
+}
+
+@media (max-width: 800px) {
+    #authorInputDiv {
+        width: 6em;
+        margin-right: 4em;
+    }
+    #authorInput {
+        font-weight: 600;
+        font-size: 0.7em;
+        line-height: 1.5em;
+        height: 2em;
+    }
+    #donateButtons {
+        width: 8em;
+    }
+    #copiedMessage {
+        font-size: 0.55em;
+        line-height: 1.5em;
+    }
+    #donateButtons img {
+        width: 1.4em;
+        padding: 0.1em;
+    }
+    #donateText {
+        font-size: 0.6em;
+    }
+    .clusterDiv {
+        height: 20em;
+    }
+    .imageDiv {
+        width: 100%;
+        height: 4em;
+        clear: both;
+        float: none;
+    }
+    .infoDiv {
+        display: block;
+        width: 16em;
+        height: 15.5em;
+        overflow-x: hidden;
+    }
+    .infoDivCluster {
+        margin-bottom: 0.5em;
+    }
+    .textDiv {
+        padding-left: 0em;
+        width: 100%;
+        height: 11em;
+    }
+    .postTitle {
+        font-size: 0.8em;
+        line-height: 1.5em;
+    }
+    .postDescription {
+        font-size: 0.8em;
+        line-height: 1.5em;
+        height: 9em;
+        padding-top: 0.1em;
+        padding-bottom: 0.1em;
+    }
+    .extraInfo {
+        font-size: 0.6em;
+        padding-top: 0.1em;
+        height: 1.5em;
+        width: 100%;
+        text-align: left;
+    }
+    .extraInfo1 {
+        font-size: 0.6em;
+        padding-top: 0.1em;
+        height: 1.5em;
+    }
+    #searchTerms {
+        width: 90%;
+    }
+    #howToPopup {
+        width: 90%;
+    }
+    #searchAndClear {
+        left: 75px;
+    }
+    #pac-input{
+        left: 75px;
+    }
+    #searchAndClear p {
+        /*display: none;*/
+        display: inline-block;
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 600;
+        font-size: 0.7em;
+        color: white;
+        width: 32%;
+        text-transform: uppercase;
+        background-color: rgba(45, 130, 250, 0.60);
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 550px) {
+    #searchAndClear {
+        width: calc(100% - 160px);
+        height: auto;
+    }
+    #pac-input{
+        left: 75px;
+        width: calc(100% - 170px);
+        top: 50px;
+    }
+    #searchAndClear p {
+        width: 30%;
+        font-weight: 500;
+    }
+    #searchAndClear p {
+        margin-bottom: 0.2em;
+        font-size: 0.55em;
+    }
+    #searchTerms {
+        top: 50px;
+    }
+    #howToPopup {
+        top: 50px;
+    }
+    .onoffswitch {
+        top: auto;
+        bottom: 4em;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .onoffswitch-inner:before,
+    .onoffswitch-inner:after {
+        height: 2em;
+        line-height: 2em;
+        font-size: 0.5em;
+    }
+    .onoffswitch-switch {
+        width: 0.75em;
+        height: 0.75em;
+        border-radius: 100px;
+        transition: all 0.3s ease-in 0s;
+        margin-top: 0.175em;
+    }
+    #blogCodeDiv {
+        bottom: 5.5em;
+        width: 90%;
+    }
+    #blogCodeDescription {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        text-align: center;
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 400;
+        font-size: 0.7em;
+        height: 1.6em;
+    }
+    .blogCodeText {
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 400;
+        font-size: 0.7em;
+        line-height: 1.5em;
+        margin-bottom: 0.5em;
+    }
+    .howToHeader {
+        font-weight: 400;
+        font-size: 0.9em;
+        line-height: 1.5em;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+    }
+    .howToText {
+        text-align: center;
+        padding-top: 1em;
+        width: 90%;
+        font-size: 0.7em;
+        line-height: 1.5em;
+    }
+    #author,
+    #tag {
+        width: 80%;
+        font-weight: 400;
+        font-size: 0.7em;
+        height: 1.8em;
+    }
+    #author {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+    #tag {
+        margin-bottom: 0.5em;
+    }
+}
