@@ -456,7 +456,7 @@
 
 .imageDiv {
     overflow: auto;
-    background-image: url(../IMG/91.gif);
+    background-image: url(/IMG/91.gif);
     object-fit: cover;
     width: 7.5em;
     height: 7.5em;
