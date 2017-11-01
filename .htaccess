@@ -2,5 +2,7 @@ Options +FollowSymLinks
 RewriteEngine On
 
 
- 
+RewriteRule ^@([^/]+)/([^/]+) /index.php?author=$1&post=$2 [PT,L]
+RewriteRule ^@([^/]+) /index.php?author=$1 [PT,L]
+
 RewriteRule ^user/(.*)$ ./?author=$1
