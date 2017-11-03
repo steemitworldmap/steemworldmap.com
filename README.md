@@ -28,7 +28,7 @@ SWM container is based on [php (with apache)](https://hub.docker.com/_/php/) off
 
 The scanner searchs for new TOP level post having the SWM tag. It also search for updates on existing post. In both cases, an update is sent to the web server with the updated informations.
 
-TODO
+This component will be available in it own repository.
 
 ## Running the project
 
