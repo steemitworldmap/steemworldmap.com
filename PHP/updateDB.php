@@ -3,9 +3,9 @@
 <?php
 
 
-include('/home/poxpoint/steemitworldmap.com/PHP/connection.php');
+include('connection.php');
 
-$m_jsondata = file_get_contents('/home/poxpoint/steemitworldmap.com/data.json');
+$m_jsondata = file_get_contents('../data.json');
 //convert json object to php associative array
 $m_data     = json_decode($m_jsondata, true);
 

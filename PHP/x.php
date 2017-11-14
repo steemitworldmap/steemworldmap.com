@@ -1,6 +1,6 @@
 <?php
 
-include('/home/poxpoint/steemitworldmap.com/PHP/connection.php');
+include('connection.php');
  
 date_default_timezone_set('UTC');
 $yesterday = date("Y-m-d H:m:s", strtotime('-7 day', time())); //7 Days Ago - Timeout
