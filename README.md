@@ -43,7 +43,7 @@ This component will be available in it own repository.
 The container can be build as follow :
 
 ```
-> docker build -t steemworldmap .
+> docker build -t steemworldmap/steemworldmap.com .
 ```
 
 This enables the `rewrite` and `mysqli` apache2 extensions.
