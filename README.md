@@ -67,3 +67,4 @@ Then run the script :
 > ./init.sh
 
 Once done, the application will be available [locally on port 80](http://localhost/).
+In order to have some points on the map, a few demo points are available in `/data.json` and can be loaded by visiting the [Update points page](http://localhost/PHP/updateDB.php).
