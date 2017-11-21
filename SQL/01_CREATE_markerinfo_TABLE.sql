@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `markerinfo` (
-  `postLink` varchar(1000) NOT NULL,
+  `postLink` varchar(300) NOT NULL,
   `steemName` varchar(200) DEFAULT NULL,
   `postTitle` varchar(500) DEFAULT NULL,
   `postImageLink` varchar(1000) DEFAULT NULL,
@@ -39,11 +39,11 @@ CREATE TABLE `markerinfo` (
   `lattitude` double DEFAULT NULL,
   `postDate` timestamp NULL DEFAULT NULL,
   `postDescription` varchar(150) DEFAULT NULL,
-  `postPermLink` varchar(500) DEFAULT NULL,
+  `postPermLink` varchar(300) DEFAULT NULL,
   `editorsChoice` tinyint(1) DEFAULT NULL,
   `tags` varchar(500) DEFAULT NULL,
   `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
 -- Indexes for dumped tables
