@@ -386,7 +386,7 @@ $(document).ready(function () {
         $('#copiedMessage').slideDown();
         timer = setTimeout(function () {
             $('#copiedMessage').slideUp();
-        }, 3000);
+        }, 6000);
     });
     $('#ethImg').click(function () {
         timer = clearTimeout(timer);
@@ -399,7 +399,7 @@ $(document).ready(function () {
         $('#copiedMessage').slideDown()
         timer = setTimeout(function () {
             $('#copiedMessage').slideUp();
-        }, 3000);
+        }, 6000);
     });
     /*$('#steemImg').click(function () {
         timer = clearTimeout(timer);

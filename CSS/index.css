@@ -134,6 +134,7 @@
     border: 1px solid black;
     height: 8em;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 #blogCodeDescription {
@@ -189,6 +190,7 @@
     background-color: rgba(255, 255, 255, 0.9);
     border: 0.5px solid black;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .howToHeader {
