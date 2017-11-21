@@ -7,8 +7,9 @@ $yesterday = date("Y-m-d H:m:s", strtotime('-7 day', time())); //7 Days Ago - Ti
 	
 $sql = "SELECT * FROM markerinfo WHERE postDate >= '$yesterday' OR postDate IS NULL"; //postDate >= '$yesterday' OR postDate IS NULL
 $result = $conn->query($sql);
+
 while ($row = $result->fetch_assoc()) {
-     
+
     $permLink 			= $row['postPermLink'];
     $author 			= $row['steemName'];
     $timestamp			= $row['postDate'];
@@ -23,9 +24,11 @@ while ($row = $result->fetch_assoc()) {
 		$upvotes 			= $account['net_votes'];
 		$pendingpayoutvalue = $account['pending_payout_value'];
 		$tpendingpayoutvalue= $account['total_pending_payout_value'];
-		
+		$pendingpayoutvalue = trim(str_replace("SBD", "", $pendingpayoutvalue));
+
 		if($pendingpayoutvalue == 0 || $pendingpayoutvalue == ""){
 			$pendingpayoutvalue	= $account['total_payout_value'];
+			$pendingpayoutvalue = trim(str_replace("SBD", "", $pendingpayoutvalue));
 		}
 		
 		$comments 			= $account['children'];
@@ -158,6 +161,14 @@ function curl($data) {
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
     $result = curl_exec($ch);
+    
+    $err = curl_error($ch);
+    if ($err) {
+      echo "cURL Error #:" . $err;
+    } else {
+      //echo $result;
+    }
+
     $result = json_decode($result, true);
     return $result;
 }
