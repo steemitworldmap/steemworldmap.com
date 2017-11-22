@@ -460,8 +460,8 @@
     overflow: auto;
     background-image: url(/IMG/91.gif);
     object-fit: cover;
-    width: 7.5em;
-    height: 7.5em;
+    width: 9em;
+    height: 9em;
     float: left;
     background-repeat: no-repeat;
     background-position: center;
@@ -483,19 +483,20 @@
 .infoDiv {
     display: block;
     width: 32em;
-    height: 7.5em;
+    height: 9em;
     overflow: auto;
 }
 
 .infoDivCluster {
     margin-bottom: 1em;
     border-bottom: 1px solid #c4c4c4;
+    overflow: hidden;
 }
 
 .textDiv {
     display: block;
-    width: 22em;
-    height: 7.5em;
+    width: 21em;
+    height: 9em;
     float: left;
     padding-left: 0.5em;
     overflow-wrap: break-word;
@@ -520,7 +521,7 @@
     font-family: 'Libre Franklin', sans-serif;
     font-size: 0.9em;
     line-height: 1.5em;
-    height: 4.5em;
+    height: 6.4em;
     overflow: hidden;
     padding-top: 0.3em;
     padding-bottom: 0.3em;
@@ -534,7 +535,7 @@
     line-height: 1.5em;
     overflow: hidden;
     text-align: right;
-    width: 60%;
+    width: 63%;
     float: right;
     padding-top: 0.2em;
 }
@@ -544,7 +545,7 @@
     font-size: 0.8em;
     line-height: 1.5em;
     overflow: hidden;
-    width: 40%;
+    width: 37%;
     float: left;
     padding-top: 0.2em;
 }
@@ -579,13 +580,13 @@
     }
     .imageDiv {
         width: 100%;
-        height: 4em;
+        height: 12em;
         clear: both;
         float: none;
     }
     .infoDiv {
         display: block;
-        width: 16em;
+        width: 18em;
         height: 15.5em;
         overflow-x: hidden;
     }
@@ -595,7 +596,7 @@
     .textDiv {
         padding-left: 0em;
         width: 100%;
-        height: 11em;
+        height: 6em;
     }
     .postTitle {
         font-size: 0.8em;
@@ -604,7 +605,7 @@
     .postDescription {
         font-size: 0.8em;
         line-height: 1.5em;
-        height: 9em;
+        height: 4.5em;
         padding-top: 0.1em;
         padding-bottom: 0.1em;
     }
@@ -612,7 +613,6 @@
         font-size: 0.6em;
         padding-top: 0.1em;
         height: 1.5em;
-        width: 100%;
         text-align: left;
     }
     .extraInfo1 {
