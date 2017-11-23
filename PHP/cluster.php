@@ -25,7 +25,7 @@ if (isset($_POST['markerTitles']) === true) {
             $row['postLink'] . "\" target=\"blank\">" . htmlspecialchars($row['postTitle']) . "</a></h2>
                 <p class=\"postDescription\">" . htmlspecialchars($row['postDescription']) . "</p>
                 <p class=\"extraInfo1\">" . htmlspecialchars($row['steemName']) . "&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                <p class=\"extraInfo\">▴" . htmlspecialchars($row['postUpvote']) . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$" . htmlspecialchars($row['postValue']) . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" . htmlspecialchars($postDate) . "</p>
+                <p class=\"extraInfo\">▴" . htmlspecialchars($row['postUpvote']) . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▴$" . htmlspecialchars(round($row['postValue'], 0)) . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" . htmlspecialchars($postDate) . "</p>
             </div>
         </div>";
     }
