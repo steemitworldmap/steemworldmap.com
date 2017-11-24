@@ -9,7 +9,7 @@
 	$result = $conn->query($sql);
 
     $it = 0;
-while (($row = $result->fetch_assoc()) && $it < 150) {
+    while (($row = $result->fetch_assoc()) && $it < 250) {
     $it++;
 
 	    $permLink 			= $row['postPermLink'];
@@ -46,6 +46,14 @@ while (($row = $result->fetch_assoc()) && $it < 150) {
 			$imageB 			= explode('"', $image[1]);
 			$imageF 			= $imageB[0];
             $imageF             = str_replace("'","",$imageF);
+            
+            /*if($imageF == ""){
+                $image 				= explode('"links":["', $imageLink);
+			    $imageB 			= explode('"', $image[1]);
+                $imageF 			= $imageB[0];
+                $imageF             = str_replace("'","",$imageF);
+            }
+            echo $imageF;*/
 			
 			if(($account['created'] != "" && $timestamp == "") || ($account['created'] != "" && $timestamp == "0000-00-00 00:00:00")){
 				$timestamp 		= date("Y-m-d H:i:s", strtotime($account['created']));
@@ -109,7 +117,7 @@ while (($row = $result->fetch_assoc()) && $it < 150) {
 	function curl($data) {
 	    global $debug;
 	    $ch = curl_init();
-	    curl_setopt($ch, CURLOPT_URL, 'https://steemd.minnowsupportproject.org');
+	    curl_setopt($ch, CURLOPT_URL, 'https://steemd.steemit.com/');
 	    curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 	    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 	    $result = curl_exec($ch);
