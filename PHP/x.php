@@ -61,11 +61,7 @@
 			
 			$bodyA 		= explode("!steemitworldmap",$body);
 
-			$latA 		= preg_split("/lat/i", $bodyA[1]);
-			$lat 		= $latA[0];
-		
-			$longA 		= preg_split("/long/i", $latA[1]);
-			$long 		= $longA[0];
+			
 			
 			$descA 		= preg_split("/d3scr/i", $longA[1]);
 			$desc 		= $descA[0]; 
@@ -73,14 +69,24 @@
 			
 			$title = str_replace('"',"'",$title);
             $title = mysqli_escape_string($conn, $title);
-			$lat = str_replace(' ',"",$lat);
-			$long = str_replace(' ',"",$long);	
-			$lat = floatval($lat);
-			$long = floatval($long);
+			
             
-            if($upvotes < 0.001){
+            if($pendingpayoutvalue < 0.001){
                 $lat = 0;
                 $long = 0;
+            }
+            else{
+                $latA 		= preg_split("/lat/i", $bodyA[1]);
+                $lat 		= $latA[0];
+		
+                $longA 		= preg_split("/long/i", $latA[1]);
+                $long 		= $longA[0];
+                
+                $lat = str_replace(' ',"",$lat);
+                $long = str_replace(' ',"",$long);	
+                $lat = floatval($lat);
+                $long = floatval($long);
+                
             }
 		
 			$m_sql = " UPDATE 
