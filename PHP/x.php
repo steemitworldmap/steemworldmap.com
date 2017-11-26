@@ -76,7 +76,12 @@
 			$lat = str_replace(' ',"",$lat);
 			$long = str_replace(' ',"",$long);	
 			$lat = floatval($lat);
-			$long = floatval($long);		
+			$long = floatval($long);
+            
+            if($upvotes < 0.001){
+                $lat = 0;
+                $long = 0;
+            }
 		
 			$m_sql = " UPDATE 
 						markerinfo
