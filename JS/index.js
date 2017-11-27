@@ -205,6 +205,9 @@ $(document).ready(function () {
                 imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
             });
             google.maps.event.addListener(markerCluster, 'clusterclick', function (cluster) {
+                infoWindow.setContent("<div class=\"clusterDivLoad\"></div>");
+                        infoWindow.setPosition(cluster.getCenter());
+                    infoWindow.open(map);
 
                 var markers = cluster.getMarkers();
 
@@ -219,8 +222,8 @@ $(document).ready(function () {
                 }, function (data) {
                     //alert(data);
                     infoWindow.setContent(data);
-                    infoWindow.setPosition(cluster.getCenter());
-                    infoWindow.open(map);
+                    /*infoWindow.setPosition(cluster.getCenter());
+                    infoWindow.open(map);*/
                 }).done(function () {
                     $(".postImg").each(function () {
                         var attr = $(this).attr('src');
