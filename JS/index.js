@@ -4,7 +4,6 @@ var markerCluster;
 var infowindow;
 var codeMarker;
 var selected;
-var markerLatLng;
 
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
@@ -19,21 +18,9 @@ function initMap() {
     codeMarker = new google.maps.Marker();
 
     infoWindow = new google.maps.InfoWindow();
-    infoWindow = new google.maps.InfoWindow( /*{disableAutoPan: true}*/ );
-
-    google.maps.InfoWindow.prototype.isOpen = function () {
-        var map = this.getMap();
-        return (map !== null && typeof map !== "undefined");
-    }
 
     map.addListener('zoom_changed', function () {
         infoWindow.close();
-    });
-
-    google.maps.event.addListener(map, 'click', function () {
-        if (infoWindow.isOpen()) {
-            infoWindow.close();
-        }
     });
 
     map.addListener('idle', function () {
@@ -164,7 +151,6 @@ $(document).ready(function () {
                 codeLat = codeMarker.getPosition().lat();
                 theDescription = $("#blogCodeDescription").val();
                 completeCode = "!steemitworldmap " + codeLat.toFixed(6) + " lat " + codeLong.toFixed(6) + " long " + theDescription + " d3scr";
-                completeCode = "[//]:# (!steemitworldmap " + codeLat.toFixed(6) + " lat " + codeLong.toFixed(6) + " long " + theDescription + " d3scr)";
                 $("#codeToCopy").empty().append(completeCode);
                 $("#blogCodeDescription").bind("input propertychange", function (evt) {
                     // If it's the propertychange event, make sure it's the value that changed.
@@ -176,7 +162,6 @@ $(document).ready(function () {
                     $(this).data("timeout", setTimeout(function () {
                         theDescription = $("#blogCodeDescription").val();
                         completeCode = "!steemitworldmap " + codeLat.toFixed(6) + " lat " + codeLong.toFixed(6) + " long " + theDescription + " d3scr";
-                        completeCode = "[//]:# (!steemitworldmap " + codeLat.toFixed(6) + " lat " + codeLong.toFixed(6) + " long " + theDescription + " d3scr)";
                         $("#codeToCopy").empty().append(completeCode);
                     }, 500));
                 });
@@ -397,13 +382,11 @@ $(document).ready(function () {
         $('#copiedMessage').slideUp(function () {
             $('#copiedMessage').html("");
             $('#copiedMessage').html("CLIPBOARD:&nbsp;&nbsp;&nbsp;" + textToCopy);
-            $('#copiedMessage').html("COPIED:&nbsp;&nbsp;&nbsp;" + textToCopy);
         });
         $('#copiedMessage').slideDown();
         timer = setTimeout(function () {
             $('#copiedMessage').slideUp();
         }, 6000);
-        }, 3000);
     });
     $('#ethImg').click(function () {
         timer = clearTimeout(timer);
@@ -412,13 +395,11 @@ $(document).ready(function () {
         $('#copiedMessage').slideUp(function () {
             $('#copiedMessage').html("");
             $('#copiedMessage').html("CLIPBOARD:&nbsp;&nbsp;&nbsp;" + textToCopy);
-            $('#copiedMessage').html("COPIED:&nbsp;&nbsp;&nbsp;" + textToCopy);
         });
         $('#copiedMessage').slideDown()
         timer = setTimeout(function () {
             $('#copiedMessage').slideUp();
         }, 6000);
-        }, 3000);
     });
     /*$('#steemImg').click(function () {
         timer = clearTimeout(timer);
@@ -647,8 +628,6 @@ function searchAll() {
                         title: postLink
                     });
                     marker.addListener('click', function () {
-                        /*markerLatLng = this.getPosition();
-                        map.panTo({lat: (markerLatLng.lat()), lng: markerLatLng.lng()});*/
                         $.ajax({
                             url: "/PHP/markerInfo.php",
                             type: "GET",
@@ -687,8 +666,6 @@ function searchAll() {
                     imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
                 });
                 google.maps.event.addListener(markerCluster, 'clusterclick', function (cluster) {
-                    /*markerLatLng = cluster.getCenter();
-                        map.panTo({lat: (markerLatLng.lat()), lng: markerLatLng.lng()});*/
                     var markers = cluster.getMarkers();
 
                     var markerTitles = [];
@@ -746,6 +723,12 @@ function searchAll() {
                         });
                     });
                 });
+                google.maps.event.addListener(map, 'click', function () {
+                    if (infowindow) {
+                        infowindow.close();
+                    }
+                });
+
             }
         }
     })
