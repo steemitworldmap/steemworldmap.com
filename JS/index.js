@@ -18,7 +18,6 @@ function initMap() {
     });
     codeMarker = new google.maps.Marker();
 
-    infoWindow = new google.maps.InfoWindow();
     infoWindow = new google.maps.InfoWindow( /*{disableAutoPan: true}*/ );
 
     google.maps.InfoWindow.prototype.isOpen = function () {
@@ -163,7 +162,6 @@ $(document).ready(function () {
                 codeLong = codeMarker.getPosition().lng();
                 codeLat = codeMarker.getPosition().lat();
                 theDescription = $("#blogCodeDescription").val();
-                completeCode = "!steemitworldmap " + codeLat.toFixed(6) + " lat " + codeLong.toFixed(6) + " long " + theDescription + " d3scr";
                 completeCode = "[//]:# (!steemitworldmap " + codeLat.toFixed(6) + " lat " + codeLong.toFixed(6) + " long " + theDescription + " d3scr)";
                 $("#codeToCopy").empty().append(completeCode);
                 $("#blogCodeDescription").bind("input propertychange", function (evt) {
@@ -175,7 +173,6 @@ $(document).ready(function () {
                     window.clearTimeout($(this).data("timeout"));
                     $(this).data("timeout", setTimeout(function () {
                         theDescription = $("#blogCodeDescription").val();
-                        completeCode = "!steemitworldmap " + codeLat.toFixed(6) + " lat " + codeLong.toFixed(6) + " long " + theDescription + " d3scr";
                         completeCode = "[//]:# (!steemitworldmap " + codeLat.toFixed(6) + " lat " + codeLong.toFixed(6) + " long " + theDescription + " d3scr)";
                         $("#codeToCopy").empty().append(completeCode);
                     }, 500));
@@ -396,13 +393,11 @@ $(document).ready(function () {
         copyToClipboard(textToCopy);
         $('#copiedMessage').slideUp(function () {
             $('#copiedMessage').html("");
-            $('#copiedMessage').html("CLIPBOARD:&nbsp;&nbsp;&nbsp;" + textToCopy);
             $('#copiedMessage').html("COPIED:&nbsp;&nbsp;&nbsp;" + textToCopy);
         });
         $('#copiedMessage').slideDown();
         timer = setTimeout(function () {
             $('#copiedMessage').slideUp();
-        }, 6000);
         }, 3000);
     });
     $('#ethImg').click(function () {
@@ -411,13 +406,11 @@ $(document).ready(function () {
         copyToClipboard(textToCopy);
         $('#copiedMessage').slideUp(function () {
             $('#copiedMessage').html("");
-            $('#copiedMessage').html("CLIPBOARD:&nbsp;&nbsp;&nbsp;" + textToCopy);
             $('#copiedMessage').html("COPIED:&nbsp;&nbsp;&nbsp;" + textToCopy);
         });
         $('#copiedMessage').slideDown()
         timer = setTimeout(function () {
             $('#copiedMessage').slideUp();
-        }, 6000);
         }, 3000);
     });
     /*$('#steemImg').click(function () {
