@@ -47,7 +47,7 @@ function initMap() {
                 });
                 $(this).on('error', function () {
                     $(this).parent().css('background', 'transparent');
-                    $(this).attr("src", "/IMG/imageNotFound.png");
+                    $(this).attr("src", "IMG/imageNotFound.png");
                     $(this).addClass("noImage");
                 });
             }
@@ -214,7 +214,7 @@ $(document).ready(function () {
                     markerTitles.push(markers[i].getTitle());
                 }
                 //SEND THIS TO PHP AND GET DATA FROM MARKERS WITH THIS TITLE
-                $.post('/PHP/cluster.php', {
+                $.post('PHP/cluster.php', {
                     markerTitles: markerTitles
                 }, function (data) {
                     //alert(data);
@@ -233,7 +233,7 @@ $(document).ready(function () {
                             });
                             $(this).on('error', function () {
                                 $(this).parent().css('background', 'transparent');
-                                $(this).attr("src", "/IMG/imageNotFound.png");
+                                $(this).attr("src", "IMG/imageNotFound.png");
                                 $(this).addClass("noImage");
                             });
                         }
@@ -253,7 +253,7 @@ $(document).ready(function () {
                                     });
                                     $(this).on('error', function () {
                                         $(this).parent().css('background', 'transparent');
-                                        $(this).attr("src", "/IMG/imageNotFound.png");
+                                        $(this).attr("src", "IMG/imageNotFound.png");
                                         $(this).addClass("noImage");
                                     });
                                 }
@@ -543,7 +543,7 @@ function searchAll() {
         var editorsChoice = "";
     }
     $.ajax({
-        url: "/PHP/search.php",
+        url: "PHP/search.php",
         type: "GET",
         data: {
             author: authorToSearch,
@@ -641,7 +641,7 @@ function searchAll() {
                     });
                     marker.addListener('click', function () {
                         $.ajax({
-                            url: "/PHP/markerInfo.php",
+                            url: "PHP/markerInfo.php",
                             type: "GET",
                             data: {
                                 postLink: marker.getTitle()
@@ -658,7 +658,7 @@ function searchAll() {
                                 });
                                 $(".postImg").on('error', function () {
                                     $(this).parent().css('background', 'transparent');
-                                    $(this).attr("src", "/IMG/imageNotFound.png");
+                                    $(this).attr("src", "IMG/imageNotFound.png");
                                     $(this).addClass("noImage");
                                     $(this).fadeTo(500, 1);
                                 });
@@ -688,7 +688,7 @@ function searchAll() {
                         markerTitles.push(markers[i].getTitle());
                     }
                     //SEND THIS TO PHP AND GET DATA FROM MARKERS WITH THIS TITLE
-                    $.post('/PHP/cluster.php', {
+                    $.post('PHP/cluster.php', {
                         markerTitles: markerTitles
                     }, function (data) {
                         //alert(data);
@@ -708,7 +708,7 @@ function searchAll() {
                                 });
                                 $(this).on('error', function () {
                                     $(this).parent().css('background', 'transparent');
-                                    $(this).attr("src", "/IMG/imageNotFound.png");
+                                    $(this).attr("src", "IMG/imageNotFound.png");
                                     $(this).addClass("noImage");
                                 });
                             }
@@ -728,7 +728,7 @@ function searchAll() {
                                         });
                                         $(this).on('error', function () {
                                             $(this).parent().css('background', 'transparent');
-                                            $(this).attr("src", "/IMG/imageNotFound.png");
+                                            $(this).attr("src", "IMG/imageNotFound.png");
                                             $(this).addClass("noImage");
                                         });
                                     }
