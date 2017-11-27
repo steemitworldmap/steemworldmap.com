@@ -13,7 +13,7 @@
     -ms-user-select: none;
     z-index: 1;
     top: auto;
-    bottom: 5em;
+    bottom: 4.2em;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -188,7 +188,9 @@
     top: 6em;
     z-index: 1;
     background-color: rgba(255, 255, 255, 0.9);
-    border: 0.5px solid black;
+    border-top: 0.5px solid black;
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -311,7 +313,7 @@
     margin-right: auto;
     left: 0;
     right: 0;
-    width: 22em;
+    width: 25em;
     height: 34px;
 }
 
@@ -326,7 +328,6 @@
     width: 32%;
     text-transform: uppercase;
     background-color: rgba(45, 130, 250, 0.60);
-    border-radius: 5px;
 }
 
 #searchAndClear p:hover {
@@ -346,7 +347,7 @@
     margin-right: auto;
     left: 0;
     right: 0;
-    width: 26.5em;
+    width: 30em;
     line-height: 1.5em;
     height: 22px;
     text-align: center;
@@ -408,7 +409,7 @@
 #donateButtons {
     position: fixed;
     z-index: 1;
-    width: 22em;
+    width: 27em;
     background-color: rgba(255, 255, 255, 0.60);
     text-align: center;
     bottom: 0;
@@ -434,7 +435,7 @@
 
 #donateButtons img {
     display: inline-block;
-    width: 2.1em;
+    width: 1.5em;
     padding: 0.3em;
     cursor: pointer;
 }
@@ -454,6 +455,18 @@
 
 .clusterDiv {
     max-height: 20em;
+}
+
+.clusterDivLoad{
+    height: 20em;
+    width: 32em;
+    overflow: auto;
+    background-image: url(../IMG/91.gif);
+    object-fit: cover;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.5em;
 }
 
 .imageDiv {
@@ -586,8 +599,8 @@
     }
     .infoDiv {
         display: block;
-        width: 18em;
-        height: 15.5em;
+        width: 16em;
+        height: 18em;
         overflow-x: hidden;
     }
     .infoDivCluster {
@@ -642,7 +655,6 @@
         width: 32%;
         text-transform: uppercase;
         background-color: rgba(45, 130, 250, 0.60);
-        border-radius: 5px;
     }
 }
 

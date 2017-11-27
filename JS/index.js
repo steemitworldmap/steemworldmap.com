@@ -29,8 +29,8 @@ function initMap() {
         infoWindow.close();
     });
 
-    google.maps.event.addListener(map, 'click', function () {
-        if (infoWindow.isOpen()) {
+    google.maps.event.addListener(map, 'click', function (e) {
+        if (infoWindow.isOpen() && e != clusterclick) {
             infoWindow.close();
         }
     });
@@ -678,10 +678,12 @@ function searchAll() {
                     imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
                 });
                 google.maps.event.addListener(markerCluster, 'clusterclick', function (cluster) {
+                    infoWindow.setContent("<div class=\"clusterDivLoad\"></div>");
+                        infoWindow.setPosition(cluster.getCenter());
+                    infoWindow.open(map);
                     /*markerLatLng = cluster.getCenter();
                         map.panTo({lat: (markerLatLng.lat()), lng: markerLatLng.lng()});*/
                     var markers = cluster.getMarkers();
-
                     var markerTitles = [];
 
                     for (i = 0; i < markers.length; i++) {
@@ -693,9 +695,9 @@ function searchAll() {
                     }, function (data) {
                         //alert(data);
                         infoWindow.setContent(data);
-                        infoWindow.setPosition(cluster.getCenter());
+                        /*infoWindow.setPosition(cluster.getCenter());
                         
-                        infoWindow.open(map);
+                        infoWindow.open(map);*/
                     }).done(function () {
                         $(".postImg").each(function () {
                             var attr = $(this).attr('src');
