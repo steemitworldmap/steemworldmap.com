@@ -1,6 +1,99 @@
+::-webkit-scrollbar-button {
+    display: none;
+    height: 13px;
+    border-radius: 0px;
+    background-color: #AAA;
+    z-index: 10;
+}
+
+ ::-webkit-scrollbar-button:hover {
+    background-color: #AAA;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background-color: #646464;
+    border-radius: 100px;
+    z-index: 10;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background-color: #646464;
+}
+
+ ::-webkit-scrollbar-track {
+    background-color: #efefef;
+    z-index: 10;
+}
+
+ ::-webkit-scrollbar-track:hover {
+    background-color: #CCC;
+}
+
+ ::-webkit-scrollbar {
+    width: 0.4em;
+    z-index: 10;
+}
+
+.gm-style-iw+div {
+    display: none;
+}
+
+.custom-iw .gm-style-iw {
+    padding-top: 0.5em;
+    top: 15px !important;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.65) -2px -3px 12px;
+    
+}
+
+.custom-iw>div:first-child>div:nth-child(2) {
+    display: none;
+}
+
+
+/** the shadow **/
+
+.custom-iw>div:first-child>div:last-child {
+    display: none;
+}
+
+.custom-iw .gm-style-iw,
+.custom-iw .gm-style-iw>div,
+.custom-iw .gm-style-iw>div>div {
+    width: 100% !important;
+    z-index: -1 !important;
+}
+
+
+/** set here the width **/
+
+.custom-iw,
+.custom-iw>div:first-child>div:last-child {
+    width: 40em !important;
+}
+
+
+/** set here the desired background-color **/
+
+#div-main-infoWindow,
+.custom-iw>div:first-child>div:nth-child(n-1)>div>div,
+.custom-iw>div>div:last-child,
+.custom-iw .gm-style-iw,
+.custom-iw .gm-style-iw>div,
+.custom-iw .gm-style-iw>div>div {
+    background-color: white !important;
+}
+
+
+/** close-button(note that there may be a scrollbar) **/
+
+.custom-iw>div:last-child {
+    top: 1px !important;
+    right: 0 !important;
+}
+
 .pac-container:after {
     /* Disclaimer: not needed to show 'powered by Google' if also a Google Map is shown */
-
     background-image: none !important;
     height: 0px;
 }
@@ -117,6 +210,7 @@
     border: 1px solid black;
     max-height: 75vh;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 #blogCodeDiv {
@@ -339,7 +433,7 @@
     display: none;
 }
 
-#pac-input{
+#pac-input {
     z-index: 1;
     position: fixed;
     top: 4.5em;
@@ -454,24 +548,13 @@
 }
 
 .clusterDiv {
-    max-height: 20em;
-}
-
-.clusterDivLoad{
     height: 20em;
-    width: 32em;
-    overflow: auto;
-    background-image: url(../IMG/91.gif);
-    object-fit: cover;
-    float: left;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 1.5em;
+    overflow-x: hidden;
 }
 
 .imageDiv {
     overflow: auto;
-    background-image: url(/IMG/91.gif);
+    background-image: url(../IMG/91.gif);
     object-fit: cover;
     width: 9em;
     height: 9em;
@@ -495,9 +578,10 @@
 
 .infoDiv {
     display: block;
-    width: 32em;
+    width: 33.5em;
     height: 9em;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .infoDivCluster {
@@ -534,7 +618,7 @@
     font-family: 'Libre Franklin', sans-serif;
     font-size: 0.9em;
     line-height: 1.5em;
-    height: 6.4em;
+    height: 6.3em;
     overflow: hidden;
     padding-top: 0.3em;
     padding-bottom: 0.3em;
@@ -599,15 +683,21 @@
     }
     .infoDiv {
         display: block;
-        width: 16em;
+        width: 20em;
         height: 18em;
         overflow-x: hidden;
+    }
+    
+    .custom-iw,
+    .custom-iw>div:first-child>div:last-child {
+        width: 24em !important;
     }
     .infoDivCluster {
         margin-bottom: 0.5em;
     }
     .textDiv {
-        padding-left: 0em;
+        padding-left: 0.3em;
+        padding-right: 0.3em;
         width: 100%;
         height: 6em;
     }
@@ -642,7 +732,7 @@
     #searchAndClear {
         left: 75px;
     }
-    #pac-input{
+    #pac-input {
         left: 75px;
     }
     #searchAndClear p {
@@ -659,11 +749,28 @@
 }
 
 @media (max-width: 550px) {
+    .custom-iw,
+    .custom-iw>div:first-child>div:last-child {
+        width: 20em !important;
+    }
+    .extraInfo {
+        text-align: right;
+    }
+    
+    .infoDiv{
+        width: 16.7em;
+    }
+    
+    .textDiv{
+        width: calc(100% - 0.5em);
+    }
+    
+    
     #searchAndClear {
         width: calc(100% - 160px);
         height: auto;
     }
-    #pac-input{
+    #pac-input {
         left: 75px;
         width: calc(100% - 170px);
         top: 50px;
@@ -684,7 +791,7 @@
     }
     .onoffswitch {
         top: auto;
-        bottom: 4em;
+        bottom: 3.5em;
         left: 0;
         right: 0;
         margin: 0 auto;

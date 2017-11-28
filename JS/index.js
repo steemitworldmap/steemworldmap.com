@@ -5,6 +5,7 @@ var infowindow;
 var codeMarker;
 var selected;
 var markerLatLng;
+var clusterClicked;
 
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
@@ -16,6 +17,26 @@ function initMap() {
         minZoom: 2,
         clickableIcons: false
     });
+
+    markerCluster = new MarkerClusterer(map, markerArray, {
+        zoomOnClick: false,
+        imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+    });
+
+    /* originalOnAdd = ClusterIcon.prototype.onAdd;
+     ClusterIcon.prototype.onAdd = function () {
+         originalOnAdd.call(this);
+
+         google.maps.event.addDomListener(this.div_, 'click', function (ev) {
+             ev.returnValue = false;
+             ev.cancelBubble = true
+
+             if (ev.stopPropagation)
+                 ev.stopPropagation();
+         });
+
+     }*/
+
     codeMarker = new google.maps.Marker();
 
     infoWindow = new google.maps.InfoWindow( /*{disableAutoPan: true}*/ );
@@ -30,9 +51,13 @@ function initMap() {
     });
 
     google.maps.event.addListener(map, 'click', function (e) {
-        if (infoWindow.isOpen() && e != clusterclick) {
-            infoWindow.close();
-        }
+        setTimeout(function () {
+            if (infoWindow.isOpen() && !clusterClicked) {
+                infoWindow.close();
+                //alert("triggered");
+            }
+            clusterClicked = false;
+        }, 0);
     });
 
     map.addListener('idle', function () {
@@ -88,6 +113,11 @@ function initMap() {
         }
         //});
         map.fitBounds(bounds);
+    });
+    google.maps.event.addListener(infoWindow, 'domready', function () {
+        $(".infoDivCluster") //the root of the content
+            .closest('.gm-style-iw')
+            .parent().addClass('custom-iw');
     });
 
     searchAll();
@@ -205,9 +235,9 @@ $(document).ready(function () {
                 imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
             });
             google.maps.event.addListener(markerCluster, 'clusterclick', function (cluster) {
-                infoWindow.setContent("<div class=\"clusterDivLoad\"></div>");
-                        infoWindow.setPosition(cluster.getCenter());
-                    infoWindow.open(map);
+                infoWindow.setContent("<div class=\"clusterDiv\"><div class=\"infoDiv infoDivCluster\"><div class=\"imageDiv\"><img class=\"postImg\"></div><div class=\"textDiv\"><h2 class=\"postTitle\"></h2><p class=\"postDescription\"></p></div></div><div class=\"infoDiv infoDivCluster\"><div class=\"imageDiv\"><img class=\"postImg\"></div><div class=\"textDiv\"><h2 class=\"postTitle\"></h2><p class=\"postDescription\"></p></div></div></div>");
+                infoWindow.setPosition(cluster.getCenter());
+                infoWindow.open(map);
 
                 var markers = cluster.getMarkers();
 
@@ -242,7 +272,7 @@ $(document).ready(function () {
                         }
                     });
                     var imageLoad;
-                    $(".clusterDiv").parent().bind('scroll', function () {
+                    $(".clusterDiv").bind('scroll', function () {
                         clearTimeout(imageLoad);
                         imageLoad = setTimeout(function () {
                             $(".postImg").each(function () {
@@ -287,9 +317,9 @@ $(document).ready(function () {
             if ($("#searchTerms").is(':visible')) {
                 $("#searchTerms").fadeOut(300);
             }
-            /*if ($("#howToPopup").is(':visible') && !$(event.target).closest('.onoffswitch').length) {
+            if ($("#howToPopup").is(':visible') && !$(event.target).closest('.onoffswitch').length) {
                 $("#howToPopup").fadeOut(300);
-            }*/
+            }
         }
     });
 
@@ -681,8 +711,10 @@ function searchAll() {
                     imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
                 });
                 google.maps.event.addListener(markerCluster, 'clusterclick', function (cluster) {
-                    infoWindow.setContent("<div class=\"clusterDivLoad\"></div>");
-                        infoWindow.setPosition(cluster.getCenter());
+                    clusterClicked = true;
+                    infoWindow.setContent("<div class=\"clusterDiv\"><div class=\"infoDiv infoDivCluster\"><div class=\"imageDiv\"><img class=\"postImg\"></div><div class=\"textDiv\"><h2 class=\"postTitle\"></h2><p class=\"postDescription\"></p></div></div><div class=\"infoDiv infoDivCluster\"><div class=\"imageDiv\"><img class=\"postImg\"></div><div class=\"textDiv\"><h2 class=\"postTitle\"></h2><p class=\"postDescription\"></p></div></div></div>");
+                    infoWindow.setPosition(cluster.getCenter());
+
                     infoWindow.open(map);
                     /*markerLatLng = cluster.getCenter();
                         map.panTo({lat: (markerLatLng.lat()), lng: markerLatLng.lng()});*/
@@ -719,7 +751,7 @@ function searchAll() {
                             }
                         });
                         var imageLoad;
-                        $(".clusterDiv").parent().bind('scroll', function () {
+                        $(".clusterDiv").bind('scroll', function () {
                             clearTimeout(imageLoad);
                             imageLoad = setTimeout(function () {
                                 $(".postImg").each(function () {
