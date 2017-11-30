@@ -6,6 +6,7 @@ var codeMarker;
 var selected;
 var markerLatLng;
 var clusterClicked;
+var mapClicked;
 
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
@@ -50,7 +51,7 @@ function initMap() {
         infoWindow.close();
     });
 
-    google.maps.event.addListener(map, 'click', function (e) {
+    mapClicked = google.maps.event.addListener(map, 'click', function (e) {
         setTimeout(function () {
             if (infoWindow.isOpen() && !clusterClicked) {
                 infoWindow.close();
@@ -120,46 +121,6 @@ function initMap() {
             .parent().addClass('custom-iw');
     });
 
-    searchAll();
-}
-
-$(document).ready(function () {
-
-    $("#pac-input").bind("input propertychange", function (evt) {
-        // If it's the propertychange event, make sure it's the value that changed.
-        if (window.event && event.type == "propertychange" && event.propertyName != "value")
-            return;
-
-        // Clear any previously set timer before setting a fresh one
-        window.clearTimeout($(this).data("timeout"));
-        $(this).data("timeout", setTimeout(function () {
-            // Do your thing here
-            if ($("#pac-input").val() == "") {
-                map.setZoom(3);
-                map.setCenter({
-                    lat: 17,
-                    lng: 0
-                });
-            };
-        }, 800));
-    });
-
-    $(".howToHeader").click(function () {
-        $(".howToText").stop().slideUp();
-        $(this).next($(".howToText")).stop().slideToggle();
-    });
-
-    $("#codeToCopy").click(function () {
-        var worldmapCode = $(this).text();
-        copyToClipboard(worldmapCode);
-        $("#clickCodeText").hide();
-        $('#goodCopy').css("visibility", "hidden");
-        $("#goodCopy").show();
-        setTimeout(function () {
-            $('#goodCopy').css("visibility", "visible");
-        }, 100);
-    });
-
     var theClickEvent;
     var codeLong;
     var codeLat;
@@ -179,7 +140,8 @@ $(document).ready(function () {
             $("#clearSearch").stop().fadeOut(300);
             $("#howTo").stop().fadeOut(300).fadeIn(300);
 
-            theClickEvent = google.maps.event.addListener(map, 'click', function (e) {
+            google.maps.event.removeListener(mapClicked);
+            mapClicked = google.maps.event.addListener(map, 'click', function (e) {
                 //Determine the location where the user has clicked.
                 codeMarker.setMap(null);
                 var location = e.latLng;
@@ -214,6 +176,17 @@ $(document).ready(function () {
             });
 
         } else {
+            google.maps.event.removeListener(mapClicked);
+            mapClicked = google.maps.event.addListener(map, 'click', function (e) {
+                setTimeout(function () {
+                    if (infoWindow.isOpen() && !clusterClicked) {
+                        infoWindow.close();
+                        //alert("triggered");
+                    }
+                    clusterClicked = false;
+                }, 0);
+            });
+
             $("#howToPopup").stop().fadeOut(300, function () {
                 $(".howToText").hide();
             });
@@ -235,12 +208,14 @@ $(document).ready(function () {
                 imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
             });
             google.maps.event.addListener(markerCluster, 'clusterclick', function (cluster) {
+                clusterClicked = true;
                 infoWindow.setContent("<div class=\"clusterDiv\"><div class=\"infoDiv infoDivCluster\"><div class=\"imageDiv\"><img class=\"postImg\"></div><div class=\"textDiv\"><h2 class=\"postTitle\"></h2><p class=\"postDescription\"></p></div></div><div class=\"infoDiv infoDivCluster\"><div class=\"imageDiv\"><img class=\"postImg\"></div><div class=\"textDiv\"><h2 class=\"postTitle\"></h2><p class=\"postDescription\"></p></div></div></div>");
                 infoWindow.setPosition(cluster.getCenter());
+
                 infoWindow.open(map);
-
+                /*markerLatLng = cluster.getCenter();
+                    map.panTo({lat: (markerLatLng.lat()), lng: markerLatLng.lng()});*/
                 var markers = cluster.getMarkers();
-
                 var markerTitles = [];
 
                 for (i = 0; i < markers.length; i++) {
@@ -253,6 +228,7 @@ $(document).ready(function () {
                     //alert(data);
                     infoWindow.setContent(data);
                     /*infoWindow.setPosition(cluster.getCenter());
+                        
                     infoWindow.open(map);*/
                 }).done(function () {
                     $(".postImg").each(function () {
@@ -304,6 +280,46 @@ $(document).ready(function () {
             codeMarker.setMap(null);
             google.maps.event.removeListener(theClickEvent);
         }
+    });
+
+    searchAll();
+}
+
+$(document).ready(function () {
+
+    $("#pac-input").bind("input propertychange", function (evt) {
+        // If it's the propertychange event, make sure it's the value that changed.
+        if (window.event && event.type == "propertychange" && event.propertyName != "value")
+            return;
+
+        // Clear any previously set timer before setting a fresh one
+        window.clearTimeout($(this).data("timeout"));
+        $(this).data("timeout", setTimeout(function () {
+            // Do your thing here
+            if ($("#pac-input").val() == "") {
+                map.setZoom(3);
+                map.setCenter({
+                    lat: 17,
+                    lng: 0
+                });
+            };
+        }, 800));
+    });
+
+    $(".howToHeader").click(function () {
+        $(".howToText").stop().slideUp();
+        $(this).next($(".howToText")).stop().slideToggle();
+    });
+
+    $("#codeToCopy").click(function () {
+        var worldmapCode = $(this).text();
+        copyToClipboard(worldmapCode);
+        $("#clickCodeText").hide();
+        $('#goodCopy').css("visibility", "hidden");
+        $("#goodCopy").show();
+        setTimeout(function () {
+            $('#goodCopy').css("visibility", "visible");
+        }, 100);
     });
 
     $("#mapCode").click(function () {
