@@ -31,8 +31,8 @@
     <meta name="description" content="Find and share blog posts with others from all over the world on the Steemit Worldmap!" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Dosis:400,700" rel="stylesheet">
-    <link rel="stylesheet" tye="text/css" href="/CSS/datepicker.css">
-    <link rel="stylesheet" type="text/css" href="/CSS/index.css">
+    <link rel="stylesheet" tye="text/css" href="CSS/datepicker.css">
+    <link rel="stylesheet" type="text/css" href="CSS/index.css">
     <style>
         /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
@@ -79,10 +79,10 @@
     <div id="donateButtons">
         <p id="donateText">Buy us a beer!</p>
         <p id="copiedMessage"></p>
-        <img id="bcImg" src="/IMG/bitcoin-min.png" alt="Copy bitcoin address">
-        <img id="ethImg" src="/IMG/ethereum-min.png" alt="Copy ethereum address">
-        <a href="https://steemit.com/@steemitworldmap" target="_blank"><img id="steemImg" src="/IMG/steem-min.png" alt="Copy steemname"></a>
-        <a href="https://www.paypal.me/steemitworldmap" target="_blank"><img id="ppImg" src="/IMG/paypal-min.png" alt="Send money through paypal"></a>
+        <img id="bcImg" src="IMG/bitcoin-min.png" alt="Copy bitcoin address">
+        <img id="ethImg" src="IMG/ethereum-min.png" alt="Copy ethereum address">
+        <a href="https://steemit.com/@steemitworldmap" target="_blank"><img id="steemImg" src="IMG/steem-min.png" alt="Copy steemname"></a>
+        <a href="https://www.paypal.me/steemitworldmap" target="_blank"><img id="ppImg" src="IMG/paypal-min.png" alt="Send money through paypal"></a>
     </div>
 
     <div id="searchAndClear">
@@ -114,8 +114,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/moment@2.18.1/moment.min.js"></script>
-    <script src="/JS/datepicker.js"></script>
-    <script src="/JS/index.js"></script>
+    <script src="JS/datepicker.js"></script>
+    <script src="JS/index.js"></script>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDih2uRXCF2Z18UtMXhBWbKYtig8RP_X9M&callback=initMap&libraries=places"></script>
 </body>
