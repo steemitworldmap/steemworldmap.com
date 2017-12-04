@@ -5,7 +5,7 @@
 
 include('connection.php');
 
-$m_jsondata = file_get_contents('../data.json');
+$m_jsondata = file_get_contents('../DATA/data.json');
 //convert json object to php associative array
 $m_data     = json_decode($m_jsondata, true);
 
@@ -36,7 +36,7 @@ foreach ($markerId as $m_entity) {
 					markerinfo
 					(postLink, steemName, postTitle, longitude, lattitude, postDescription, postPermLink)
 					VALUES
-					('$postLink', '$steemName', '$postTitle', '$longitude', '$lattitude', '$postDescription', '$postPermLink')";
+					('$postLink', '$steemName', '$postTitle', '$longitude', '$lattitude', '$postDescription', '$postPermLink') ON DUPLICATE KEY UPDATE postTitle='$postTitle', longitude='$longitude', lattitude = '$lattitude', postDescription='$postDescription'";
         
         if ($conn->query($m_sql) === TRUE) {
             echo "New record created successfully<br>";
