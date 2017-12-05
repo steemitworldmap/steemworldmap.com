@@ -68,7 +68,7 @@ foreach ($markerId as $m_entity) {
 					markerinfo
 					(postLink, steemName, postTitle, longitude, lattitude, postDescription, postPermLink, postDate, tags, postUpvote, postValue, postImageLink)
 					VALUES
-					('$postLink', '$steemName', '$postTitle', '$longitude', '$lattitude', '$postDescription', '$postPermLink', '$postDate', '$tags', '$postUpvote', '$postValue', '$postImageLink') ON DUPLICATE KEY UPDATE postTitle='$postTitle', longitude='$longitude', lattitude = '$lattitude', postDescription='$postDescription', tags='$tags', postUpvote='$postUpvote', postValue='$postValue', postImageLink='$postImageLink', postDate='$postDate'";
+					('$postLink', '$steemName', '$postTitle', '$longitude', '$lattitude', '$postDescription', '$postPermLink', '$postDate', '$tags', '$postUpvote', '$postValue', '$postImageLink') ON DUPLICATE KEY UPDATE postTitle='$postTitle', longitude='$longitude', lattitude = '$lattitude', postDescription='$postDescription', tags='$tags', postUpvote='$postUpvote', postValue='$postValue', postImageLink='$postImageLink'";
         
         if ($conn->query($m_sql) === TRUE) {
             echo "New record created / updated successfully<br>";
